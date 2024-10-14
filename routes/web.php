@@ -1,9 +1,11 @@
 <?php
 
-use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/{vue?}', function () { return view('app'); })
     ->where('vue', '[\/\w\.-]*');
 
-Auth::routes();
+Route::post('/logout', [LoginController::class, 'logout']);
+
+//Auth::routes();
