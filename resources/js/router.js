@@ -4,6 +4,7 @@ import Index from './views/Index.vue'
 import Home from './views/Home.vue'
 import Login from './views/Login.vue'
 import Register from './views/Register.vue'
+import FourOFour from './views/404.vue'
 
 const routes = [
     {
@@ -19,6 +20,9 @@ const routes = [
     },{
         path: '/register',
         component: Register
+    },{
+        path: '/:catchAll(.*)',
+        component: FourOFour
     }
 ];
 
