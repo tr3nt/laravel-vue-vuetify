@@ -14,11 +14,15 @@ cp .env.example .env
 php artisan key:generate
 ```
 ### 5. Modify .env file with necessary data
-### 6. Install node modules
+### 6. Run migrations
+```
+php artisan migrate
+```
+### 7. Install node modules
 ```
 npm i
 ```
-### 7. Run dev or production
+### 8. Run dev or production
 ```
 npm run dev
 ```
