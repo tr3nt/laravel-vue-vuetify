@@ -1,5 +1,5 @@
 // Vuetify
-@import 'vuetify/lib/styles/main.sass';
+@use 'vuetify/lib/styles/main.sass';
 
 // Material Design Icons
-@import '@mdi/font/css/materialdesignicons.css';
+@use '@mdi/font/css/materialdesignicons.css';
