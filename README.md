@@ -1,4 +1,4 @@
-## Laravel 11 + Sanctum + Vue 3.5 + Pinia 2 + Vuetify 3
+## Laravel 12 + Sanctum + Vue 3.5 + Pinia 2 + Vuetify 3
 
 ### 1. Clone project
 ### 2. Install PHP libraries 
